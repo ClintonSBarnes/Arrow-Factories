@@ -102,7 +102,6 @@ namespace Arrow_Factories
             return false;
         }
 
-
         public void AddShaftToCost()
         {
             _arrowCost += _shaftLength * 0.05f;
@@ -120,17 +119,18 @@ namespace Arrow_Factories
             return _arrowCost;
         }
 
-        public static Arrow EliteArrowFactory() => new Arrow(
-        
+        //this is the area that needs work
+        public static void EliteArrowFactory()
+        {
 
             _arrowHead.Item1 = "Steel";
             _arrowHead.Item2 = 10f;
             _fletching.Item1 = "Plastic";
             _fletching.Item2 = 10f;
             _shaftLength = 95f;
-            _arrowCost = _arrowHead.Item2 + _fletching.Item2 + (_shaftLength * 0.05f););
+            _arrowCost = _arrowHead.Item2 + _fletching.Item2 + (_shaftLength * 0.05f);
+        }
 
-        
 
         public void MarksmanArrowFactory()
         {

@@ -13,8 +13,6 @@ int marksmanArrowCount;
 int beginnerArrowCount;
 
 
-
-
 Dialogue.Greeting();
 
 //initiates the veriable to contain a response for number of arrows. This will feed the Arrow Array to determine the array's length.
@@ -79,11 +77,8 @@ if (customArrowCount > 0)
         }
         else
             break;
-
-
     }
 }
-
 
 if (standardArrowCount > 0)
 {
@@ -121,9 +116,6 @@ if (standardArrowCount > 0)
         }
     }
 
-
-
-
 }
 
 
@@ -141,9 +133,6 @@ if (standardArrowCount > 0)
     }
 
 }
-
-
-
 
 //provides a total order summary
 Console.WriteLine($"Sir, I really think that you have picked yourself up {howManyArrows} great arrows! And you got them for only {totalArrowOrderCost} " +

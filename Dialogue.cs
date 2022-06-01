@@ -14,8 +14,6 @@ namespace Arrow_Factories
             Console.Write("Good day, fine sir. Thank you for choosing Vin Fletches' Arrows for your arrow needs. " +
                 "\nHow many arrows will you be requiring today? ");
         }
-              
-
         static public void AnyCustomArrows(int value)
         {
 
@@ -86,8 +84,6 @@ namespace Arrow_Factories
             }
 
         }
-
-        
     }
 
 

@@ -31,8 +31,5 @@ namespace Arrow_Factories
         {
             Console.WriteLine(_menu);
         }
-
-
-
     }
 }

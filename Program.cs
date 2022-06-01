@@ -118,7 +118,6 @@ if (standardArrowCount > 0)
 
 }
 
-
 if (standardArrowCount > 0)
 {
     Dialogue.StandardArrowsBeginner(standardArrowCount);

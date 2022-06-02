@@ -120,7 +120,7 @@ namespace Arrow_Factories
         }
 
         //this is the area that needs work
-        public static void EliteArrowFactory()
+        public void EliteArrowFactory()
         {
 
             _arrowHead.Item1 = "Steel";
@@ -158,3 +158,19 @@ namespace Arrow_Factories
     }
 
 }
+/*
+ * This challenge called for the ability to create a single arrow within the perscribed "standard arrow" components. 
+ * The below method accomplishes this task, but the active code allows for several instances of the "standard arrow"
+ * types. Because the used code (lines 123-133) demonstrates increased functionality, it was kept active. 
+ * 
+ * public static void EliteArrowFactory()
+        {
+
+            Arrow eliteArrow = new Arrow();
+            eliteArrow._arrowHead.Item1 = "Steel";
+            eliteArrow._arrowHead.Item2 = 10f;
+            eliteArrow._fletching.Item1 = "Plastic";
+            eliteArrow._fletching.Item2 = 10f;
+            eliteArrow._shaftLength = 95f;
+            eliteArrow._arrowCost = eliteArrow._arrowHead.Item2 + eliteArrow._fletching.Item2 + (eliteArrow._shaftLength * 0.05f);
+        }*/

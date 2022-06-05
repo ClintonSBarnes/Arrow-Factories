@@ -90,12 +90,9 @@ if (standardArrowCount > 0)
 
     if (eliteArrowCount > 0)
     {
-        for (int i = 0; i < eliteArrowCount; i++)
-        {
-            Elite[i] = new Arrow();
-            Elite[i].EliteArrowFactory();
-            totalArrowOrderCost += Elite[i].AddArrowToTotal();
-        }
+       Arrow.EliteArrowFactory(eliteArrowCount);
+        totalArrowOrderCost += eliteArrowCount * 24.75f;
+       
     }
 }
 
